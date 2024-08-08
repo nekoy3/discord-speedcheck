@@ -68,3 +68,6 @@ ERROR: HTTP Error 403: Forbidden
 ```
 具体的な原因は調査していないが、連続でspeedtestを実行するとこうなるのかも？
 `speedtest -secure`とすることで、回避できる。
+### サーバの固定化
+https://williamyaps.github.io/wlmjavascript/servercli.html
+`speedtest --server サーバID`とすると固定化出来るらしい。

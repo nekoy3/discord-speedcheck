@@ -59,7 +59,7 @@ if [ "$current_hour" -eq 23 ] && [ "$current_minute" -ge 30 ]; then
         python3 plot_speed.py
 
         # 画像ファイルのパス
-        image_path="./csv/speed_over_time.png"
+        image_path="./plot/speed_over_time.png"
 
         # 画像をPOSTリクエストでDiscordに送信
         curl -X POST "$WEBHOOK_URL" \
